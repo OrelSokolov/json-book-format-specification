@@ -55,6 +55,7 @@ Entire document object contains:
         *	Width
         *	Height
         *	Orientation
+        *   Padding array [top, right, bottom, left] (does not depend of orientation)
 *	Table classes array ( describes how rows and columns should be colored, just rules )
 *	Fonts array
     *	Font
