@@ -1,7 +1,7 @@
 # JSON BOOK FORMAT DESCRIPTION
 
 Entire document object contains:
-*	Content
+*	Content array
     *	Content chunk 
         *	Font number
         *	Font size
@@ -15,7 +15,7 @@ Entire document object contains:
     *	Special chunk (tab, line break)
         *	Background color
     *	Special characters and formulas
-    *	Tables
+    *	Table
         *	Table content
             *	Element
                 *	Content
@@ -29,7 +29,7 @@ Entire document object contains:
              *	Table name
                   *	Name
                   *	Number presence flag
-*	Pages
+*	Pages array
     *	Page
         *	Number
         *	Page class
@@ -47,7 +47,7 @@ Entire document object contains:
             *	Line
                 *	Array of chunks
                 *	Line height
-*	Page classes
+*	Page classes array
     *	Class
         *	Number
         *	Name
@@ -55,13 +55,13 @@ Entire document object contains:
         *	Width
         *	Height
         *	Orientation
-*	Table classes, describes how rows and columns should be colored, just rules
-*	Fonts
+*	Table classes array ( describes how rows and columns should be colored, just rules )
+*	Fonts array
     *	Font
         *	Number 
         *	Name
         *	Source
-*	Images
+*	Images array
     *	Image
         *	Description
         *	Base64 encoded content
