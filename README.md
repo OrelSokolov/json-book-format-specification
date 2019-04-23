@@ -17,36 +17,36 @@ Entire document object contains:
     *	Special characters and formulas
     *	Tables
         *	Table content
-*	Element
-    *	Content
-    *	Attributes
-        *	Border left
-        *	Border right
-        *	Border top
-        *	Border bottom
-        *	Background color
-        *	Align method
-        *	Table name
-*	Name
-*	Number presence flag
+            *	Element
+                *	Content
+                *	Attributes
+                    *	Border left
+                    *	Border right
+                    *	Border top
+                    *	Border bottom
+                    *	Background color
+                    *	Align method
+             *	Table name
+                  *	Name
+                  *	Number presence flag
 *	Pages
     *	Page
         *	Number
         *	Page class
         *	Default font size
         *	Images attached to page
-*	Image
-    *	Position X
-    *	Position Y
-    *	Position Z
-    *	Width
-    *	Height
-    *	Opacity
-    *	Rotation degree
+            *	Image
+                *	Position X
+                *	Position Y
+                *	Position Z
+                *	Width
+                *	Height
+                *	Opacity
+                *	Rotation degree
         *	Lines – automatically generated from text chunks
-*	Line
-    *	Array of chunks
-    *	Line height
+            *	Line
+                *	Array of chunks
+                *	Line height
 *	Page classes
     *	Class
         *	Number
