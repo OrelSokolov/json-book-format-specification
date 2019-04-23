@@ -2,6 +2,7 @@
 
 Entire document object contains:
 *	Content array
+    * Cursor object (left and right cursor group, by default 0 chunks between)
     *	Content chunk 
         *	Font number
         *	Font size
