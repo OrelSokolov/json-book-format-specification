@@ -10,8 +10,8 @@ Entire document object contains:
         *	Content, of course
         *	Background color
         *	Role
-*	Default
-*	Header class
+            *	Default
+            *	Header class
     *	Special chunk (tab, line break)
         *	Background color
     *	Special characters and formulas
