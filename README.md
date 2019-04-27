@@ -68,6 +68,7 @@ Entire document object contains:
         *	Description
         *	Base64 encoded content
 *	Metadata
+    * Title
     *	Author
         *	Name
         *	Email
