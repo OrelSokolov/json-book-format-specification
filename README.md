@@ -57,6 +57,7 @@ Entire document object contains:
         *	Height
         *	Orientation
         *   Padding array [top, right, bottom, left] (does not depend of orientation)
+        *   Default font size
 *	Table classes array ( describes how rows and columns should be colored, just rules )
 *	Fonts array
     *	Font
@@ -74,9 +75,7 @@ Entire document object contains:
         *	Email
         *	Signature
 *	Document
-    *	Defaults
-        *	Font number
-        *	Font size
+    * Default page class
     *	Last edit date
     *	Creation date
     *	License 
